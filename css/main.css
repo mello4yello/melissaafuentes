@@ -1,10 +1,15 @@
 /***** Base Styles *****/
+@font-face {
+  font-family: Cochin;
+  src: url('../fonts/cochin.ttc') format('opentype');
+}
+
 body {
   font-family: 'Source Sans Pro', sans-serif;
   color: #2b2b2b;
 }
 
-#about, #work, #contact {
+#work, #contact {
     height: 600px;
 }
 
@@ -28,20 +33,21 @@ body {
 
 header {
   height: 800px;
-  background: url('../img/hero.png');
+  background: url('../img/header-photo.png');
   background-size: cover;
 }
 
 header h1 {
     padding: 65px 0 65px 25px;
-    font-family: 'Lora', serif;
+    font-family: 'Cochin';
     font-size: 30px;
-    color: #650960;
+    color: #f5f4d8;
 }
 
 nav {
     float: right;
     padding: 75px 25px;
+    font-family: 'Cochin';
 }
 nav ul li{
     display: inline-block;
@@ -50,39 +56,46 @@ nav ul li a {
     text-transform: uppercase;
     text-decoration: none;
     font-size: 18px;
-    color: #9f9f9f;
+    color: #f5f4d8;
     padding-left: 80px;
 }
 
 header h2 {
     width: 1000px;
     clear: both;
-    font-family: 'Lora', serif;
+    font-family: 'Cochin';
     font-size: 72px;
     line-height: 72px;
-    color: #9b9b9b;
-    padding: 20px 0 20px 25px;
+    color: black;
+    padding: 150px 0 219px 215px;
 }
 header h2 span {
-    color: black;
+    color: #f5f4d8;
 }
 
 
 /***** ABOUT *****/
+#about {
+  height: 600px;
+  background: url('../img/about-mepic.png');
+  background-size: cover;
+}
 
 #about .full-width {
   padding: 80px 0;
 }
 
 #about h2 {
-  font-family: 'Lora', serif;
+  font-family: 'Cochin';
   font-size: 36px;
-  padding-left: 50px;
+  padding-left: 220px;
+  color: #f5f4d8;
 }
 
 #about p {
+  font-family: 'Cochin';
   font-size: 21px;
-  color: #a1a1a1;
+  color: black;
   line-height: 40px;
   padding-left: 50px;
   padding-right: 50px;
