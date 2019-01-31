@@ -5,12 +5,8 @@
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Cochin';
   color: #2b2b2b;
-}
-
-#work, #contact {
-    height: 600px;
 }
 
 /***** Grid *****/
@@ -25,7 +21,7 @@ body {
 }
 
 .third-width {
-  width: 400px;
+  width: 500px;
   float: left;
 }
 
@@ -99,78 +95,252 @@ header h2 span {
   line-height: 40px;
   padding-left: 50px;
   padding-right: 50px;
+  text-align: left;
 }
 
 /***** WORK *****/
 
 #work {
-  background-color: #f9ceb7;
+  background-color: #f5f4d8;
+  height: 2275px;
+}
+
+/***** FIRST SECTION *****/
+
+.top-fifth {
+  height: 475px;
+  margin: 0px;
+}
+
+.top-fifth h2 {
+  font-size: 70px;
+  font-family: 'Cochin';
   text-align: center;
+  margin: 0px 225px 74px 323px;
+  padding: 34px 2px 0px 3px;
 }
 
-#work .full-width {
-    padding: 115px 0;
+.top-fifth img#css-thumbnail {
+    margin-top: 7px;
+    margin-bottom: 35px;
+    margin-left: 235px;
+    margin-right: 241px;
+    padding: 0;
 }
 
-#work img {
-    padding-bottom: 30px;
+.top-fifth img#html-thumbnail {
+  margin: 0px 7px 95px 125px;
 }
 
-#work h3 {
+.top-fifth img#wordpress-thumbnail{
+  margin: 0px 127px 90px 125px;
+}
+
+.top-fifth h3 {
     font-size: 24px;
     line-height: 32px;
     width: 200px;
     margin: 0 auto;
 }
 
-#work p {
-    font-family: 'Lora', serif;
-    font-size: 18px;
-    line-height: 30px;
-    padding: 0 50px;
+.top-fifth p {
+  text-align: left;
+  line-height: 27px;
+  font-size: 23px;
+  font-family: 'Cochin';
+  margin-top: 55px;
+  margin-left: 35px;
+}
+/***** SECOND SECTION *****/
+
+.second-fifth {
+  height: 400px;
+  margin: 0px;
+}
+
+.second-fifth img {
+  margin: 35px 86px 0px 20px;
+  padding: 9px 23px 8px 23px;
+}
+.second-fifth h3 {
+  text-align: left;
+  font-size: 36px;
+  font-family: 'Cochin';
+  margin: 75px 229px 0px 65px;
+}
+
+.second-fifth p {
+  text-align: left;
+  line-height: 27px;
+  font-size: 24px;
+  font-family: 'Cochin';
+  margin: 9px 59px 150px 65px;
+}
+
+/***** THIRD SECTION *****/
+
+.third-fifth {
+  height: 400px;
+  margin: 0px;
+}
+
+.third-fifth img {
+  margin: 35px 132px 35px 35px;
+  padding: 0px 9px 0px 10px;
+}
+
+.third-fifth h3 {
+  text-align: left;
+  font-size: 36px;
+  font-family: 'Cochin';
+  margin: 128px 0px 9px 53px;
+  padding: 0px 1px 0px 2px;
+}
+
+.third-fifth p {
+  text-align: left;
+  line-height: 27px;
+  font-size: 24px;
+  font-family: 'Cochin';
+  margin: 9px 45px 35px 55px;
+  padding: 0px;
+}
+
+/**** FOURTH SECTION *****/
+.fourth-fifth {
+  height: 400px;
+  margin: 0px;
+}
+
+.fourth-fifth img {
+  margin: 35px 85px 0px 35px;
+  padding: 9px 76px 8px 10px;
+}
+
+.fourth-fifth h3 {
+  text-align: left;
+  font-size: 36px;
+  font-family: 'Cochin';
+  margin: 75px 0px 9px 50px;
+  padding: 0px 1px 0px 1px;
+}
+
+.fourth-fifth p {
+  text-align: left;
+  line-height: 27px;
+  font-size: 24px;
+  font-family: 'Cochin';
+  margin: 9px 9px 0px 55px;
+  padding: 0px;
+}
+
+/**** FIFTH SECTION *****/
+
+#final-section {
+  height: 400px;
+  margin: 0px;
+}
+
+
+#final-section .full-width {
+  padding: 115px 0px 0px 5px;
+}
+
+#final-section img {
+  margin: 85px 0px 75px 25px;
+  padding-left: 5px;
+}
+
+#final-section h3 {
+  text-align: left;
+  font-size: 36px;
+  font-family: 'Cochin';
+  margin-top: 105px;
+  margin-bottom: 9px;
+  padding-left: 45px;
+}
+
+#final-section p {
+  text-align: left;
+  line-height: 27px;
+  font-size: 24px;
+  font-family: 'Cochin';
+  margin-top: 0px;
+  padding-left: 45px;
 }
 
 /***** CONTACT *****/
 
 #contact {
-  background-color: #ebebeb;
+  background-color: #345375;
 }
 
 #contact .full-width {
-    padding: 110px 0;
+  padding: 110px 0px;
 }
 
 #contact img#contact-img {
     margin-left: 25px;
     border: 12px solid #ffffff;
+    margin-top: 105px;
 }
 
-#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
-    padding-left: 115px;
+#contact-info {
+  margin-top: 85px;
+  margin-left: 25px;
+}
+
+#contact h2,#contact #email-header, #contact #socialmedia-header, #contact ul {
+  padding-left: 115px;
 }
 
 #contact h2 {
-    font-family: 'Lora', serif;
+    font-family: 'Cochin';
     font-size: 36px;
-    line-height: 44px;
+    line-height: 34px;
+    color: #f5f4d8;
 }
+
+#contact p {
+  font-size: 28px;
+  color: #f5f4d8;
+}
+
+#copyright {
+  color: #f5f4d8;
+  font-family: 'Cochin';
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.contact {
+  text-align: center;
+}
+
 #contact #email-header{
     font-size: 28px;
     font-weight: normal;
-    line-height:44px;
-    margin: -30px 0 5px 0;
+    line-height: 24px;
+    color: #f5f4d8;
+    font-family: 'Cochin';
 }
+
+
 #contact #socialmedia-header {
     font-weight: bold;
     font-size: 29px;
     line-height: 44px;
-    margin: 40px 0 0 0;
+    color: #f5f4d8;
+    font-family: 'Cochin';
 }
 #contact a {
     text-decoration: none;
     color: #c49075;
     font-weight: bold;
     font-size: 28px;
+    color: #f5f4d8;
+    font-family: 'Cochin';
 }
 
 #contact ul {
@@ -181,5 +351,4 @@ header h2 span {
 }
 #contact ul img {
     font-size: 32px;
-    padding-right: 48px;
 }
